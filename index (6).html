@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="day">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rolex — Vaqtning mukammal timsoli</title>
+<meta name="description" content="Rolex soatlari: Datejust, Day-Date va Sky-Dweller. Tong va tun rejimi bilan.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style (1).css">
+</head>
+<body>
+<nav><a class="logo" href="#">ROLEX</a><div class="right"><a class="nl" href="#shop">DO'KON</a><a class="nl" href="#aloqa">ALOQA</a><span id="clock">--:--:--</span><button id="lg">Kirish</button><button id="tg" aria-label="Tong / tun rejimi"></button></div></nav>
+
+<section class="hero"><div class="hs">
+<div class="ghost" id="g1">ROLEX</div><div class="glow"></div>
+<div class="cap cl"><b>Datejust</b>Oyster Perpetual. 1945-yildan beri oynasida sanani ko'rsatuvchi birinchi soat.</div>
+<div class="frame" id="fr"><img src="assets/blue_cut.png" alt="Rolex Datejust ko'k siferblat"></div>
+<div class="cap cr"><b>Vaqtning<br>mukammal<br>timsoli</b>Po'lat, oltin va yorug'lik.</div>
+<div class="hint">PASTGA SURING</div></div></section>
+
+<section class="story" id="story"><div class="ss">
+<div class="txt" id="tx"><h2 id="th">Qismlar</h2><p id="tp">Har bir detal alohida yasaladi va bir butunga aylanadi.</p></div>
+<div class="vwrap"><video id="v" src="assets/sky.mp4" poster="assets/sky.jpg" muted playsinline preload="auto"></video></div>
+<div class="bar"><i id="pb"></i></div><div class="sky">SKY-DWELLER<br>EVEROSE GOLD</div></div></section>
+
+<section class="macro">
+<div class="mimg"><img id="mi" src="assets/macro.jpg" alt="Rolex siferblati yaqin planda"></div>
+<div><h2 class="big rv">Har bir <em>tafsilot</em> mukammal</h2>
+<p class="rv">Qo'lda sayqallangan toj, aniq chizilgan belgilar va nozik tolali siferblat. Rolex soatining ichida ham, tashqarisida ham hech narsa tasodifiy emas.</p></div></section>
+
+<section class="col" id="col"><h2 class="rv">Kolleksiya</h2><div class="word" id="wd">KO'K</div>
+<div class="stage" id="st"></div>
+<div class="sw" id="sw"></div><div id="nm"></div><div id="sp"></div></section>
+
+<section class="shop" id="shop"><h2>Do'kon</h2><p class="note">Narxlar Rolex'ning AQShdagi tavsiya etilgan chakana narxlari (soliqsiz, 2026). So'mdagi yakuniy summa operator bilan tasdiqlanadi.</p><div id="gr"></div></section>
+<section class="ct" id="aloqa"><h2>Aloqa va do'kon</h2><div class="cg">
+<div><small>TELEFON</small><a id="ctel" href="#"></a></div><div><small>MANZIL · TOSHKENT</small><a id="cad" href="#" target="_blank" rel="noopener"></a></div><div><small>ISH VAQTI</small><a id="chr" href="#"></a></div></div>
+<button class="bt" onclick="location.href='tel:'+STORE.tel">QO'NG'IROQ QILISH</button> <button class="bt g" onclick="window.open('https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(STORE.addr))">XARITADA OCHISH</button></section>
+<div class="md" id="mAuth"><div class="box"><button class="x" onclick="X('mAuth')">×</button><div class="dl"><i>♛</i></div>
+<div id="a1"><h3 class="cen">Vaqtingizga xush kelibsiz</h3><p class="cen" style="margin-bottom:18px">Buyurtma berish uchun kiring yoki ro'yxatdan o'ting</p><label class="l">ISMINGIZ</label><input class="fi" id="an" placeholder="Ism familiya"><label class="l">TELEFON YOKI GMAIL</label><input class="fi" id="au" placeholder="+998 90 123 45 67 yoki ism@gmail.com"><button class="bt" style="width:100%" id="aSend">DAVOM ETISH</button></div>
+<div id="a2" style="display:none"><h3 class="cen">Tasdiqlash kodi</h3><p class="cen" style="margin-bottom:18px"><span id="aTo"></span> ga yuborildi.<br><small>Demo rejim: kod 1234 (haqiqiy SMS/Gmail uchun server kerak)</small></p><input class="fi" id="ac" maxlength="4" placeholder="• • • •" style="text-align:center;font-size:24px;letter-spacing:.5em"><button class="bt" style="width:100%" id="aOk">KIRISH</button></div></div></div>
+<div class="md" id="mProf"><div class="box"><button class="x" onclick="X('mProf')">×</button><h3>Profil</h3><div class="cen" style="text-align:left" id="pn"></div><h3 style="font-size:22px;margin-top:18px">Buyurtmalarim</h3><ul id="pl"></ul><button class="bt g" id="pOut">CHIQISH</button></div></div>
+<div class="md" id="mOrd"><div class="box"><button class="x" onclick="X('mOrd')">×</button>
+<div id="o1"><h3>Buyurtma berish</h3><div class="sum"><img id="oi" alt=""><div><b style="margin:0;color:var(--ink);font-size:18px" id="on2"></b><br><small id="orf"></small></div><b id="op"></b></div>
+<label class="l">ISM</label><input class="fi" id="on"><label class="l">TELEFON</label><input class="fi" id="ot" placeholder="+998 90 123 45 67">
+<label class="l">OLISH USULI</label><div class="opt"><label><input type="radio" name="dv" value="Yetkazib berish" checked>Yetkazib berish</label><label><input type="radio" name="dv" value="Do'kondan olish">Do'kondan olish</label></div>
+<div id="od"><label class="l">VILOYAT</label><select class="fi" id="or"></select><small id="ort" class="cen" style="display:block;margin:-6px 0 10px;text-align:left"></small><label class="l">MANZIL</label><textarea class="fi" id="oa" rows="2" placeholder="Tuman, ko'cha, uy"></textarea><button class="bt g" id="oLoc" style="margin-bottom:6px">📍 JOYLASHUVIMNI ANIQLASH</button> <span id="oLm" class="cen"></span></div>
+<label class="l" style="display:block;margin-top:12px">TO'LOV</label><div class="opt"><label><input type="radio" name="pm" value="Click" checked>Click</label><label><input type="radio" name="pm" value="Naqd">Naqd</label></div>
+<button class="bt" style="width:100%" id="oGo">BUYURTMANI TASDIQLASH</button></div>
+<div id="o2" style="display:none;text-align:center"><div class="dl"><i>✓</i></div><h3>Buyurtma qabul qilindi</h3><p class="cen" id="dNo" style="margin:6px 0 14px"></p><p class="cen" id="dTx" style="margin-bottom:18px"></p>
+<button class="bt" style="width:100%;margin-bottom:8px;display:none" id="dClick">CLICK ORQALI TO'LASH</button><a class="bt g" style="display:block;text-decoration:none;margin-bottom:8px" id="dWa" target="_blank" rel="noopener">WhatsApp orqali yuborish</a><a class="bt g" style="display:block;text-decoration:none" id="dTg" target="_blank" rel="noopener">Telegram orqali yuborish</a></div></div></div>
+<div id="ts"></div>
+<footer><span class="logo">ROLEX</span>Bu sahifa namoyish maqsadida yaratilgan. Rolex® — Rolex SA kompaniyasining tovar belgisi.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
